@@ -5,7 +5,7 @@
 
 
 
-
+# Authors
 If you use this repository or work related to it, please cite the following paper:
 
 ```bash
@@ -15,12 +15,5 @@ AUTHORS="Ozan Gökkan, Mehmet Kuntalp"
 PUB="Computers in Biology and Medicine, Elsevier"
 DOI="https://doi.org/10.1016/j.compbiomed.2022.106205"
 YEAR="2022"
-
-echo "Title: $TITLE"
-echo "Authors: $AUTHORS"
-echo "Published in: $PUB"
-echo "DOI: $DOI"
-echo "Year: $YEAR"
-
 
 
