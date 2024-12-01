@@ -3,13 +3,24 @@
 # Streamlit web app for demonstration
 [Watch the demo](https://www.youtube.com/watch?v=v1uoPyzWU7M)
 
-## Citation
+
+
+
 If you use this repository or work related to it, please cite the following paper:
 
-**Title:** *A new imbalance-aware loss function to be used in a deep neural network for colorectal polyp segmentation*  
-**Authors:** Ozan Gökkan, Mehmet Kuntalp.  
-**Published in:** Computers in Biology and Medicine, Elsevier  
-**DOI:** [[doi:10.1109/ICML2024.12345](https://doi.org/10.1109/ICML2024.12345](https://doi.org/10.1016/j.compbiomed.2022.106205))  
-**Year:** 2022
+```bash
+# Citation Information
+TITLE="A new imbalance-aware loss function to be used in a deep neural network for colorectal polyp segmentation"
+AUTHORS="Ozan Gökkan, Mehmet Kuntalp"
+PUB="Computers in Biology and Medicine, Elsevier"
+DOI="https://doi.org/10.1016/j.compbiomed.2022.106205"
+YEAR="2022"
+
+echo "Title: $TITLE"
+echo "Authors: $AUTHORS"
+echo "Published in: $PUB"
+echo "DOI: $DOI"
+echo "Year: $YEAR"
+
 
 
