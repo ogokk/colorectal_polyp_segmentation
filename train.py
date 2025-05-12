@@ -1,8 +1,3 @@
-"""
-Deep CNN networks and a new imbalance-aware loss function
-for colorectal polyp segmentation
-@author: ozangokkan
-"""
 
 import gc
 import os
@@ -669,8 +664,8 @@ plot_iou(iou_scores, "IoU score")
 
 
 
-# sample_submission_path = "C:/Users/ozangokkan/Desktop/PhD/thesis/codes/test-nokvasir.csv"
-# #data_folder    = "C:/Users/ozangokkan/Desktop/PhD/thesis/datasets/images"
+# path = "C:/Users/ozangokkan/Desktop/PhD/thesis/codes/test-nokvasir.csv"
+# #data_folder    = "C:/Users/ozangokkan/Desktop/datasets/images"
 # test_data_folder = "C:/Users/ozangokkan/Desktop/splitsets/testingkvasir/images"
 # size = 448
 # mean = (0.485, 0.456, 0.406) # for 3 channels of an image 
@@ -680,7 +675,7 @@ plot_iou(iou_scores, "IoU score")
 # best_threshold = 0.5
 # min_size = 5
 # device = torch.device("cuda:0")
-# df = pd.read_csv(sample_submission_path)
+# df = pd.read_csv(path)
 
 
 
@@ -696,9 +691,9 @@ plot_iou(iou_scores, "IoU score")
 
 
 # # --------------------------------------------------------------------------------
-# model = training_model.net # get the model from model_trainer object
+# model = training_model.net
 # model.eval()
-# state = torch.load("C:/Users/ozangokkan/Desktop/PhD/thesis/codes/model.pth", map_location=lambda storage, loc: storage)
+# state = torch.load("C:/Users/ozangokkan/Desktop/codes/model.pth", map_location=lambda storage, loc: storage)
 # model.load_state_dict(state["state_dict"])
 # # --------------------------------------------------------------------------------
 
