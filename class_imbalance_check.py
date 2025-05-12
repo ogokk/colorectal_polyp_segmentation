@@ -1,9 +1,4 @@
-"""
 
-Class-imbalance check
-@author: ozangokkan
-
-"""
 
 import cv2
 import glob
