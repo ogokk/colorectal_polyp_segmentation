@@ -1,8 +1,3 @@
-"""
-Encode-Decoder network using 34-layered ResNet and UNet architecture for image segmentation
-@author: ozangokkan
-"""
-
 
 import torch
 import torch.nn as nn
