@@ -1,11 +1,4 @@
-"""
-Copyright (c) 2022, Ozan Gokkan
-All rights reserved.
 
-Omni comprehensive loss function
-
-@author: ozangokkan
-"""
 import torch.nn as nn
 import numpy as np
 from torch.nn import functional as F
