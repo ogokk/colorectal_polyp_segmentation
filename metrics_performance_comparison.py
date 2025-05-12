@@ -1,7 +1,4 @@
-"""
-Metrics for comparison as illustrated in "iou-ncc-tversky-loss.png"  
-@author: ozangokkan
-"""
+
 import numpy as np
 import cv2
 from matplotlib import pyplot as plt
