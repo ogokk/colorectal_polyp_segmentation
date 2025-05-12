@@ -1,7 +1,3 @@
-"""
-Image File rename as tiff 
-@author: ozangokkan
-"""
 
 import os 
 
