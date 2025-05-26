@@ -1,7 +1,7 @@
 # A new imbalance-aware loss function to be used in a deep neural network for colorectal polyp segmentation [[Paper]](https://doi.org/10.1016/j.compbiomed.2022.106205)
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ogokk/colorectal_polyp_segmentation/main/gif_rep.gif" width="600">
+<p>
+  <img src="https://raw.githubusercontent.com/ogokk/colorectal_polyp_segmentation/main/gif_rep.gif" width="700">
 </p>
 
 # Streamlit web app for demonstration
